@@ -20,6 +20,7 @@ def imp_subclasses(path, Base):
     m = SourceFileLoader(name, path).load_module()
     for k,cls in m.__dict__.items():
         if inspect.isclass(cls) and issubclass(cls, Base):
-            subs.append(cls)
+            if not issubclass(Base, cls):
+                subs.append(cls)
     return subs
 
