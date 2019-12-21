@@ -1,13 +1,13 @@
 pyutils
-![](https://img.shields.io/badge/python%20-%203.7-brightgreen.svg)
+![](https://img.shields.io/badge/python%20-%203.8-brightgreen.svg)
 ========
-> my python utils 
+> utils 
 
 ## `Install`
 ` pip install git+https://github.com/zhouxianggen/pyutils.git`
 
 ## `Upgrade`
-` pip install --upgrade git+https://github.com/zhouxianggen/pyutils.git`
+` pip install --U git+https://github.com/zhouxianggen/pyutils.git`
 
 ## `Uninstall`
 ` pip uninstall pyutils`

@@ -10,11 +10,11 @@ setup(
         name = 'pyutils',
         version = '1.0',
         install_requires = [], 
-        description = 'my python utils',
+        description = 'utils',
         url = 'https://github.com/zhouxianggen/pyutils.git', 
         author = 'zhouxianggen',
         author_email = 'zhouxianggen@gmail.com',
-        classifiers = [ 'Programming Language :: Python :: 3.7',],
+        classifiers = [ 'Programming Language :: Python :: 3.8',],
         packages = ['pyutils'],
         data_files = [ ],  
         entry_points = { }   
