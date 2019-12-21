@@ -7,7 +7,7 @@ pyutils
 ` pip install git+https://github.com/zhouxianggen/pyutils.git`
 
 ## `Upgrade`
-` pip install --U git+https://github.com/zhouxianggen/pyutils.git`
+` pip install -U git+https://github.com/zhouxianggen/pyutils.git`
 
 ## `Uninstall`
 ` pip uninstall pyutils`
