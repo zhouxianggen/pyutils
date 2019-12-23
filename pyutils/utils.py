@@ -17,7 +17,7 @@ def get_logger(name, level=logging.INFO):
     log.setLevel(level)
     log.propagate = False
     if not log.handlers:
-        fmt = ('[%(name)-25s %(thread)-15d '
+        fmt = ('[%(name)-15s %(thread)-18d '
                 '%(levelname)-8s %(asctime)s] %(message)s')
         handler = logging.StreamHandler()
         handler.setFormatter(logging.Formatter(fmt))
